@@ -7,6 +7,6 @@ public class main {
     public static void main(String[] args) {
         ProductoFabrica fabrica = new ProductoFabrica();
         Producto producto1 = fabrica.crearProducto("Coche");
-        System.out.println("Mostrar precio= " + producto1.calcularPrecio());
+        System.out.println("Nombre producto "+ producto1.getNombre()+", descripcion "+ producto1.getDescripcion() +"Mostrar precio= " + producto1.calcularPrecio());
     }
 }

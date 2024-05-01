@@ -1,4 +1,4 @@
-package co.edu.uniquindio.parcial2.patrones.command.Model;
+package co.edu.uniquindio.parcial2.patrones.command.delivery.Model;
 
 public class DeliveryService {
     public void processDelivery(DeliveryOrder order) {

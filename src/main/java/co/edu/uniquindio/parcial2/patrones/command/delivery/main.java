@@ -1,6 +1,6 @@
-package co.edu.uniquindio.parcial2.patrones.command;
+package co.edu.uniquindio.parcial2.patrones.command.delivery;
 
-import co.edu.uniquindio.parcial2.patrones.command.Model.*;
+import co.edu.uniquindio.parcial2.patrones.command.delivery.Model.*;
 
 import java.util.ArrayList;
 import java.util.List;

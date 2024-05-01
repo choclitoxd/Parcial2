@@ -1,6 +1,5 @@
-package co.edu.uniquindio.parcial2.patrones.command.Model;
+package co.edu.uniquindio.parcial2.patrones.command.delivery.Model;
 
-import co.edu.uniquindio.parcial2.patrones.command.Model.DeliveryOrder;
 import co.edu.uniquindio.parcial2.patrones.command.service.Command;
 
 public class DeliveryCommand implements Command {

@@ -1,6 +1,6 @@
-package co.edu.uniquindio.parcial2.patrones.adapter.model;
+package co.edu.uniquindio.parcial2.patrones.adapter.pasarelaPago.model;
 
-import co.edu.uniquindio.parcial2.patrones.adapter.service.Pago;
+import co.edu.uniquindio.parcial2.patrones.adapter.pasarelaPago.service.Pago;
 
 public class PasarelaPagoModerno implements Pago {
     public void procesarPago(double monto) {

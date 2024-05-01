@@ -1,7 +1,7 @@
-package co.edu.uniquindio.parcial2.patrones.adapter;
+package co.edu.uniquindio.parcial2.patrones.adapter.pasarelaPago;
 
-import co.edu.uniquindio.parcial2.patrones.adapter.model.AdapterPago;
-import co.edu.uniquindio.parcial2.patrones.adapter.model.PasarelaPagoModerno;
+import co.edu.uniquindio.parcial2.patrones.adapter.pasarelaPago.model.AdapterPago;
+import co.edu.uniquindio.parcial2.patrones.adapter.pasarelaPago.model.PasarelaPagoModerno;
 
 public class main {
     public static void main(String[] args) {

@@ -10,4 +10,11 @@ public abstract class Producto {
     }
     public abstract String calcularPrecio();
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
 }
