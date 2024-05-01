@@ -15,7 +15,5 @@ public class ObjetoController {
     public List<Objeto> obtenerObjetos() {
         return modelFactory.obtenerObjeto();
     }
-    public List<Objeto> obtenerObjetosRango(int rango){
-        return modelFactory.objetosPrestados(rango);
-    }
+
 }

@@ -69,8 +69,7 @@ public class ObjetoViewController {
 
     @FXML
     void onObtenerObjetos(ActionEvent event) {
-        listaObjetos.clear();
-        listaObjetos.addAll(objetoController.obtenerObjetosRango(Integer.parseInt(txtRango.getText())));
+
     }
     @FXML
     private ResourceBundle resources;

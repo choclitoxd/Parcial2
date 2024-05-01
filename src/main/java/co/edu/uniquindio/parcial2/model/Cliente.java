@@ -18,4 +18,11 @@ public class Cliente extends Persona{
     public List<Prestamo> getListPrestamosAsociados() {
         return listPrestamosAsociados;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "listPrestamosAsociados=" + listPrestamosAsociados +
+                "} " + super.toString();
+    }
 }

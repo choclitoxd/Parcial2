@@ -55,4 +55,17 @@ public class Prestamo {
     public List<Objeto> getListaObjetos() {
         return listaObjetos;
     }
+
+    @Override
+    public String toString() {
+        return "Prestamo{" +
+                "numeroPrestamo='" + numeroPrestamo + '\'' +
+                ", fechaPrestamo=" + fechaPrestamo +
+                ", fechaEntrega=" + fechaEntrega +
+                ", descripcion='" + descripcion + '\'' +
+                ", clienteAsociado=" + clienteAsociado +
+                ", empleadoAsociado=" + empleadoAsociado +
+                ", listaObjetos=" + listaObjetos +
+                '}';
+    }
 }

@@ -27,4 +27,10 @@ public class Objeto {
     public String getNombreObjeto() {
         return nombreObjeto;
     }
+
+    @Override
+    public String toString() {
+        return "codigo='" + codigoObjeto + '\'' +
+                ", nombre='" + nombreObjeto ;
+    }
 }
