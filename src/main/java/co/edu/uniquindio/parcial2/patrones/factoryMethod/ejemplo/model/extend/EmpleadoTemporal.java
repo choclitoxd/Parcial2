@@ -1,7 +1,6 @@
-package co.edu.uniquindio.parcial2.patrones.factoryMethod.model.extend;
+package co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.extend;
 
-import co.edu.uniquindio.parcial2.model.Empleado;
-import co.edu.uniquindio.parcial2.patrones.factoryMethod.model.EmpleadoP;
+import co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.EmpleadoP;
 
 public class EmpleadoTemporal extends EmpleadoP {
     public EmpleadoTemporal(String nombre, String apellido, String cedula, String edad) {
