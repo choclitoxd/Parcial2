@@ -1,7 +1,7 @@
-package co.edu.uniquindio.parcial2.patrones.factoryMethod.model;
+package co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model;
 
-import co.edu.uniquindio.parcial2.patrones.factoryMethod.model.extend.EmpleadoPermanente;
-import co.edu.uniquindio.parcial2.patrones.factoryMethod.model.extend.EmpleadoTemporal;
+import co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.extend.EmpleadoPermanente;
+import co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.extend.EmpleadoTemporal;
 
 public class EmpleadoFabrica extends FabricarEmpleados {
     @Override

@@ -1,7 +1,7 @@
-package co.edu.uniquindio.parcial2.patrones.factoryMethod;
+package co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo;
 
-import co.edu.uniquindio.parcial2.patrones.factoryMethod.model.EmpleadoP;
-import co.edu.uniquindio.parcial2.patrones.factoryMethod.model.EmpleadoFabrica;
+import co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.EmpleadoP;
+import co.edu.uniquindio.parcial2.patrones.factoryMethod.ejemplo.model.EmpleadoFabrica;
 
 public class main {
     public static void main(String[] args) {
