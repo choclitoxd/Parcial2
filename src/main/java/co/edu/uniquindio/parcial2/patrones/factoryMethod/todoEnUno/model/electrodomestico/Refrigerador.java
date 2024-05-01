@@ -7,4 +7,8 @@ public class Refrigerador extends Producto {
     public Refrigerador(String nombre) {
         super(nombre,"Para eventos o uso doméstico temporal.");
     }
+    @Override
+    public String calcularPrecio() {
+        return "600000";
+    }
 }

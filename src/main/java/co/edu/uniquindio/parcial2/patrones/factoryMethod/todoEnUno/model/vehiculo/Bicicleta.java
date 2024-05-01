@@ -6,4 +6,8 @@ public class Bicicleta extends Producto {
     public Bicicleta(String nombre) {
         super(nombre,"Para clientes eco-conscientes o eventos en zonas urbanas");
     }
+    @Override
+    public String calcularPrecio() {
+        return "700000";
+    }
 }

@@ -7,4 +7,9 @@ public class Televisor extends Producto {
     public Televisor(String nombre) {
         super(nombre,"Para ferias, exposiciones o entretenimiento doméstico");
     }
+    @Override
+    public String calcularPrecio() {
+        return "500000";
+    }
+
 }

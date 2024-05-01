@@ -8,4 +8,6 @@ public abstract class Producto {
         this.nombre = nombre;
         this.descripcion = descripcion;
     }
+    public abstract String calcularPrecio();
+
 }

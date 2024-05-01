@@ -7,4 +7,8 @@ public class Lavadora extends Producto {
     public Lavadora(String nombre) {
         super(nombre,"Principalmente para clientes en rentas de vivienda a largo plazo");
     }
+    @Override
+    public String calcularPrecio() {
+        return "600000";
+    }
 }
